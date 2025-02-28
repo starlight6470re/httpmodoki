@@ -12,3 +12,4 @@ minihttpd.py(小高知宏. “Webサーバの構築”. PythonによるTCP/IPソ
 - localhost:8080// など、任意のディレクトリをURIとしたリクエストを送ると、Is a directoryのエラーが出て、サーバが止まる
 - プログラムが動いているPC内で、パスがわかっているファイルにアクセスできてしまう
   ex.)localhost:8080//home/user/test.txt
+- 画像など、元からバイナリ形式のファイルにアクセスが要求されるとエラーになる
